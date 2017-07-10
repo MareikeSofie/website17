@@ -1,0 +1,35 @@
+body {
+  background: beige;
+}
+
+.header {
+  font-family: Times New Roman, serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title {
+  font-family: Consolas, Courier New, monospace;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.row {
+  font-family: Consolas, Courier New, monospace;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.h3 {
+  font-family: Times New Roman, serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
