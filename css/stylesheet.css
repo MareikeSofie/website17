@@ -2,13 +2,40 @@ body {
   background: #ffecd5
 }
 
+.icon-home i {
+  position: fixed;
+  color:#69b29e
+}
+
+.icon-contact i {
+  position: fixed;
+  right: 10px;
+  color:#69b29e
+}
+
+.icon-vita i {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  color:#69b29e
+}
+
+.icon-work i {
+  position: fixed;
+  bottom: 0px;
+  color:#69b29e;
+}
+
 .title {
   font-family: Consolas, Courier New, monospace;
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 40px;
   text-align: center;
-  color:#69b29e
+}
+
+.doEm {
+   letter-spacing: 1.8em;
 }
 
 .header {
@@ -17,6 +44,8 @@ body {
   padding-bottom: 40px;
   margin-bottom: 40px;
   text-align: center;
+  letter-spacing: 0.8em;
+  color:#69b29e
 }
 
 
