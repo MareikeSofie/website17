@@ -16,14 +16,14 @@ body {
 .icon-vita i {
   position: fixed;
   bottom: 0px;
-  right: 10px;
-  color:#69b29e
+  color:#69b29e;
 }
 
 .icon-work i {
   position: fixed;
   bottom: 0px;
-  color:#69b29e;
+  right: 10px;
+  color:#69b29e
 }
 
 
