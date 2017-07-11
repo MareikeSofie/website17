@@ -1,0 +1,63 @@
+body {
+  background: #ffecd5
+}
+
+/* Icons Navigation */
+.icon-home i {
+  position: fixed;
+  color:#69b29e
+}
+
+.icon-contact i {
+  position: fixed;
+  right: 10px;
+  color:#69b29e
+}
+
+.icon-vita i {
+  position: fixed;
+  bottom: 0px;
+  color:#69b29e;
+}
+
+.icon-work i {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  color:#69b29e
+}
+/* Icons Navigation Ende*/
+
+
+.title {
+  font-family: Consolas, Courier New, monospace;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.doEm {
+   letter-spacing: 1.8em;
+   padding-left: 1.8em;
+}
+
+.header {
+  font-family: Times New Roman, serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 0.8em;
+  color:#69b29e
+}
+
+
+.row {
+  font-family: Consolas, Courier New, monospace;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  text-align: center;
+}
