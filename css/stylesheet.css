@@ -2,6 +2,7 @@ body {
   background: #ffecd5
 }
 
+/* Icons Navigation */
 .icon-home i {
   position: fixed;
   color:#69b29e
@@ -15,27 +16,27 @@ body {
 
 .icon-vita i {
   position: fixed;
-  bottom: 0px;
+  bottom: 6px;
   color:#69b29e;
 }
 
-.icon-work i {
+.icon-about i {
   position: fixed;
-  bottom: 0px;
+  bottom: 10px;
   right: 10px;
+
   color:#69b29e
 }
-
+/* Icons Navigation Ende*/
 
 
 .title {
   font-family: Consolas, Courier New, monospace;
-  padding-top: 40px;
+  padding-top: 70px;
   padding-bottom: 40px;
   margin-bottom: 40px;
   text-align: center;
 }
-
 .doEm {
    letter-spacing: 1.8em;
    padding-left: 1.8em;
@@ -54,12 +55,57 @@ body {
 
 .row {
   font-family: Consolas, Courier New, monospace;
-  padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 40px;
   padding-left: 70px;
   padding-right: 70px;
-
   text-align: center;
+}
 
+/*try*/
+
+.illustation {
+    float:right;
+    width:13em;
+    background-color:thistle;
+}
+.illustation-text {
+    margin-left: 14em;
+    background-color:lightblue;
+}
+/*try2*/
+#informationen {
+	border: 3px solid orange;
+}
+
+.abschnitt {
+	float: left;
+	width: 15em;
+	height: 15em;
+	background-color: pink;
+}
+
+.zwei {
+	width: 12.5em;
+	height: 12.5em;
+	background-color: lightblue;
+}
+
+.drei {
+	width: 10em;
+	height: 10em;
+	background-color: lightgreen;
+}
+
+.clear {
+	clear: both;
+}
+/* Reset Grundlayout.css bezüglich div-Elementen */
+
+div {
+	height: auto;
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
 }
