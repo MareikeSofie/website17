@@ -24,7 +24,6 @@ body {
   position: fixed;
   bottom: 10px;
   right: 10px;
-
   color:#69b29e
 }
 /* Icons Navigation Ende*/
@@ -62,58 +61,75 @@ body {
   text-align: center;
 }
 
-/*try*/
+/*blah*/
 
-.illustation {
-    float:right;
-    width:13em;
-    background-color:thistle;
-}
-.illustation-text {
-    margin-left: 14em;
-    background-color:lightblue;
-}
-/*try2*/
-#informationen {
-	border: 3px solid orange;
+$module-breakpoint: 25em;
+
+*, ::before, ::after {
+  box-sizing: border-box;
 }
 
-.abschnitt {
-	float: left;
-	width: 3px;
-	background-color: pink;
+h3 {
+  margin-top: 0;
 }
 
-.zwei {
-	width: 12.5em;
-	height: 12.5em;
-	background-color: lightblue;
-}
-
-.drei {
-	width: 10em;
-	height: 10em;
-	background-color: lightgreen;
-}
-
-.clear {
-	clear: both;
-}
-/* Reset Grundlayout.css bezüglich div-Elementen */
-
-div {
-	height: auto;
-	border: none;
-	margin: 0;
-	padding: 0;
-	width: auto;
+img {
+  /* Remove whitespace under images: */
+  vertical-align: middle;
 }
 
 
-.picture {
-  width: 3px;
- height: 3px;
+
+/* Double last margin prevention hack. Not intended for production. */
+.float-module p:last-of-type {
+  margin-bottom: 0;
 }
+
+/*
+  Demonstrate container query-esque responsiveness:
+*/
+@media only screen and (min-width:40em) {
+  .md-50 {
+    max-width: 50%;
+  }
+}
+
+/* The pattern: */
+
+
+
+.float-module__image {
+  min-width: 50%;
+  width: calc((#{$module-breakpoint} - 100%) * 1000);
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.float-module__image img {
+  width: 100%;
+}
+
+.float-module__image--left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.float-module:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Kontaktbox*/
