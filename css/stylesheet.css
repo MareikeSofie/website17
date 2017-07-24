@@ -61,10 +61,10 @@ body {
   text-align: center;
 }
 
+
+
 /*blah*/
-
 $module-breakpoint: 25em;
-
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -79,7 +79,6 @@ img {
 }
 
 
-
 /* Double last margin prevention hack. Not intended for production. */
 .float-module p:last-of-type {
   margin-bottom: 0;
@@ -87,21 +86,20 @@ img {
 
 /*
   Demonstrate container query-esque responsiveness:
+
+  BIldgröße einstellen md-50  Media Queries
 */
-@media only screen and (min-width:40em) {
+@media only screen and  {
   .md-50 {
     max-width: 50%;
   }
 }
 
 /* The pattern: */
-
-
-
 .float-module__image {
   min-width: 50%;
   width: calc((#{$module-breakpoint} - 100%) * 1000);
-  max-width: 100%;
+  max-width: 50%;
   margin-bottom: 1rem;
 }
 
@@ -112,6 +110,11 @@ img {
 .float-module__image--left {
   float: left;
   margin-right: 1rem;
+}
+
+.float-module__image--right {
+  float: right;
+  margin-left: 1rem;
 }
 
 .float-module:after {
